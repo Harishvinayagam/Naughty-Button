@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naughty Button</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Naughty Button</h1>
+    <div class="container">
+        <div class="form-group">
+            <label for="uname">Username:</label>
+            <input type="text" class="form-control" id="uname" onclick="resetbtn()">
+        </div>
+        <div class="form-group">
+            <label for="pass">Password:</label>
+            <input type="password" class="form-control" id="pass" onclick="resetbtn()">
+        </div>
+        <div class="form-group">
+            <label for="mail">Email:</label>
+            <input type="email" class="form-control" id="mail" onclick="resetbtn()">
+        </div>
+        <button class="btn btn-primary btn-move" onmouseover="move()" id="btn">Submit</button>
+    </div>
+    <script src="script.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
